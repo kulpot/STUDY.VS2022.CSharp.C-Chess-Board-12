@@ -92,8 +92,9 @@ namespace C__Chess_Board_10
 
             Cell currentCell = myBoard.theGrid[x, y];
 
-            // determine legal next moves
 
+            // determine legal next moves
+            myBoard.MarkNextLegalMoves(currentCell, "Knight");
 
             // update the text on each button
             //-----------END-------------- C# Chess Board 12 button text ---------------------------------------------------
