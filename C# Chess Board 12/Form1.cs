@@ -70,6 +70,10 @@ namespace C__Chess_Board_10
                     btnGrid[i, j].Location = new Point(i * buttonSize, j * buttonSize);
 
                     btnGrid[i, j].Text = i + "|" + j;
+                    //-----------START-------------- C# Chess Board 12 button text ---------------------------------------------------
+                    btnGrid[i, j].Tag = new Point(i, j);
+                    //-----------END-------------- C# Chess Board 12 button text ---------------------------------------------------
+
                 }
             }
         }
