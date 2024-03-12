@@ -85,6 +85,10 @@ namespace C__Chess_Board_10
             //-----------START-------------- C# Chess Board 12 button text ---------------------------------------------------
             // get the row and col number of the button clicked
             Button clickedButton = (Button)sender;
+            Point location = (Point)clickedButton.Tag;
+
+            int x = location.X;
+            int y = location.Y;
 
             // determine legal next moves
 
