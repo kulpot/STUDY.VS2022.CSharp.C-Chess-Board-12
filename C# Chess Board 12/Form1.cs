@@ -101,6 +101,8 @@ namespace C__Chess_Board_10
             {
                 for (int j = 0; j < myBoard.Size; j++)
                 {
+                    btnGrid[i, j].Text = "";
+
                     if (myBoard.theGrid[i, j].LegalNextMove == true)
                     {
                         btnGrid[i, j].Text = "Legal";
