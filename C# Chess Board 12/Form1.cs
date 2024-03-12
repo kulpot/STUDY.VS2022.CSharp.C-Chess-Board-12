@@ -105,6 +105,10 @@ namespace C__Chess_Board_10
                     {
                         btnGrid[i, j].Text = "Legal";
                     }
+                    else if (myBoard.theGrid[i, j].CurrentlyOccupied == true)
+                    {
+                        btnGrid[i, j].Text = "Knight";
+                    }
                 }
             }
 
