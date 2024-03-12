@@ -76,7 +76,18 @@ namespace C__Chess_Board_10
 
         private void Grid_Button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You clicked a button!");
+            //MessageBox.Show("You clicked a button!");
+
+            //-----------START-------------- C# Chess Board 12 button text ---------------------------------------------------
+            // get the row and col number of the button clicked
+
+
+            // determine legal next moves
+
+
+            // update the text on each button
+            //-----------END-------------- C# Chess Board 12 button text ---------------------------------------------------
+
         }
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 
