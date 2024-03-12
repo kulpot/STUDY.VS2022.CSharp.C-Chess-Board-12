@@ -90,6 +90,8 @@ namespace C__Chess_Board_10
             int x = location.X;
             int y = location.Y;
 
+            Cell currentCell = myBoard.theGrid[x, y];
+
             // determine legal next moves
 
 
