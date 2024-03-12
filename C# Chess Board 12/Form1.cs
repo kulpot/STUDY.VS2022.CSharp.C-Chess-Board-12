@@ -97,6 +97,17 @@ namespace C__Chess_Board_10
             myBoard.MarkNextLegalMoves(currentCell, "Knight");
 
             // update the text on each button
+            for (int i = 0; i < myBoard.Size; i++)
+            {
+                for (int j = 0; j < myBoard.Size; j++)
+                {
+                    if (myBoard.theGrid[i, j].LegalNextMove == true)
+                    {
+                        btnGrid[i, j].Text = "Legal";
+                    }
+                }
+            }
+
             //-----------END-------------- C# Chess Board 12 button text ---------------------------------------------------
 
         }
