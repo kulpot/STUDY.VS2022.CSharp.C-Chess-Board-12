@@ -17,7 +17,8 @@ using System.Windows.Forms;
 //--------------------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=f3QRYl3o5Ak&list=PLhPyEFL5u-i0YDRW6FLMd1PavZp9RcYdF&index=11
 
-//
+//--------------------------- C# Chess Board 12 button text ---------------------------------------------------
+//ref link:https://www.youtube.com/watch?v=l7N4kCi9UhQ&list=PLhPyEFL5u-i0YDRW6FLMd1PavZp9RcYdF&index=12
 
 namespace C__Chess_Board_10
 {
